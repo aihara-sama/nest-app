@@ -2,11 +2,10 @@ stages:
   - test
 
 test:
-  image: cypress/browsers:node12.14.1-chrome85-ff81
+  image: cypress/base:10
   stage: test
   script:
     # install dependencies
-    - yarn ci
-    - yarn start:ci &
+    - yarn install
     # run Cypress tests
     - yarn cy:run
