@@ -6,8 +6,6 @@ test:
   stage: test
   script:
     # install dependencies
-    - yarn ci
-    # start the server in the background
-    - yarn start:ci &
+    - yarn install
     # run Cypress tests
     - yarn cy:run
