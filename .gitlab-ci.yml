@@ -2,7 +2,7 @@ stages:
   - test
 
 test:
-  image: cypress/base
+  image: cypress/browsers
   stage: test
   script:
     # install dependencies
