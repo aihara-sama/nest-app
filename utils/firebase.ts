@@ -1,6 +1,7 @@
 // @ts-nocheck
 
 import firebase from "firebase/app";
+
 import "firebase/messaging";
 
 const firebaseConfig = {
