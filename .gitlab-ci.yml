@@ -1,0 +1,11 @@
+stages:
+  - test
+
+test:
+  image: cypress/browsers
+  stage: test
+  script:
+    # install dependencies
+    - yarn install
+    # run Cypress tests
+    - yarn cy:run

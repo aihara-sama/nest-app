@@ -1,23 +1,9 @@
-import { Button, ButtonTypeMap, TextField } from "@mui/material";
-import React, {
-	ChangeEvent,
-	ChangeEventHandler,
-	DetailedHTMLProps,
-	FunctionComponent,
-	useRef,
-	createElement,
-} from "react";
+import React, { FunctionComponent } from "react";
 
-const Counter: FunctionComponent = ({ children }) => {
-	const clickCB = (e: React.MouseEvent<HTMLButtonElement>) => {};
-
-	const ref = useRef();
-
+const Counter: FunctionComponent = () => {
 	return (
-		<button onClick={clickCB}>
-			<button value={["1", "2"]} onClick={clickCB}>
-				Button
-			</button>
+		<button>
+			<button value={["1", "2"]}>Button</button>
 		</button>
 	);
 };
