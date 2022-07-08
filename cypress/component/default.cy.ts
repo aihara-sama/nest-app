@@ -2,6 +2,6 @@
 // @ts-nocheck
 describe("default.cy.ts", () => {
 	it("playground", () => {
-		// cy.mount()
+		expect(1).toBe(1);
 	});
 });
