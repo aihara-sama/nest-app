@@ -2,7 +2,7 @@ stages:
   - test
 
 test:
-  image: cypress/base:13
+  image: docker:latest
   stage: test
   script:
     # install dependencies
