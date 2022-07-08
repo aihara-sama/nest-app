@@ -2,7 +2,7 @@ stages:
   - test
 
 test:
-  image: cypress/base:12.22.0
+  image: cypress/base:13
   stage: test
   script:
     # install dependencies
