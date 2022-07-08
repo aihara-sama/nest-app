@@ -1,19 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import React, { FunctionComponent } from "react";
+import React from "react";
 
-import { css, ThemeProvider } from "@emotion/react";
-import {
-	Alert,
-	Autocomplete,
-	Button,
-	ClassNameMap,
-	Paper,
-	PaperClasses,
-	styled,
-	Theme,
-} from "@mui/material";
-import { makeStyles } from "@mui/styles";
 import Counter from "@/components/Counter";
 
 const Home: NextPage = () => {
@@ -25,7 +13,6 @@ const Home: NextPage = () => {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<Counter />
-      
 		</div>
 	);
 };
